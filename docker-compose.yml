@@ -10,7 +10,7 @@ services:
     depends_on:
       - db
     ports:
-      - "217.76.139.34:4000:4000"
+      - "127.0.0.1:4000:4000"
     entrypoint: ["./wait.sh"]
 
   db:
